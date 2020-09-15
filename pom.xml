@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>platform-application</artifactId>
+        <groupId>com.jc.platform</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>platofrm-test11</artifactId>
+    <name>platofrm-test11</name>
+    <description>platofrm-test11</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>platofrm-test11-common</module>
+        <module>platofrm-test11-feign</module>
+        <module>platofrm-test11-web</module>
+    </modules>
+
+</project>
